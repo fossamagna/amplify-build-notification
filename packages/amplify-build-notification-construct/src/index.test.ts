@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
 import { Template } from 'aws-cdk-lib/assertions';
-import * as AmplifyBuildNotification from '../lib/index';
+import * as AmplifyBuildNotification from './index';
 
 test('EventBridgeRule Created', () => {
   const app = new cdk.App();
