@@ -1,0 +1,26 @@
+{
+  "name": "amplify-build-notification",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Add your AWS Amplify app's build notification with AWS ChatBot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fossamagna/amplify-build-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fossamagna/amplify-build-notification/issues"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "MURAKAMI Masahiko <fossamagna2@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present"
+  },
+  "keywords": [
+    "amplify",
+    "backend"
+  ]
+}
