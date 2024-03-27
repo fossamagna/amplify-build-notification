@@ -16,7 +16,8 @@
   "author": "MURAKAMI Masahiko <fossamagna2@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
+    "build": "tsc --build packages/*",
+    "clean": "npm run clean --workspaces --if-present",
     "test": "npm test --workspaces --if-present"
   },
   "devDependencies": {

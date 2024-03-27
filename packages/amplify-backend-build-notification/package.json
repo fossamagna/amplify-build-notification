@@ -1,7 +1,6 @@
 {
-  "name": "amplify-build-notification-construct",
+  "name": "amplify-backend-build-notification",
   "version": "0.1.0",
-  "description": "AWS CDK Construct for Amplify Build Notification with AWS Chatbot",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -9,6 +8,10 @@
     "clean": "rm -rf lib tsconfig.tsbuildinfo",
     "watch": "tsc -w",
     "test": "jest"
+  },
+  "dependencies": {
+    "@aws-amplify/plugin-types": "^0.9.0-beta.1",
+    "amplify-build-notification-construct": "^0.1.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
