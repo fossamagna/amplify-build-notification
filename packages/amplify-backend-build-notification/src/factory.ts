@@ -12,6 +12,8 @@ import type { AmplifyBuildNotificationFactoryProps } from "./types";
 export class AmplifyBuildNotificationFactory
   implements ConstructFactory<ResourceProvider<AmplifyBuildNotification>>
 {
+  readonly provides = "build-notification"
+
   private generator: ConstructContainerEntryGenerator;
 
   constructor(
