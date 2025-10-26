@@ -21,7 +21,7 @@
     "test": "npm test --workspaces --if-present"
   },
   "devDependencies": {
-    "typescript": "~5.3.3"
+    "typescript": "~5.9.0"
   },
   "keywords": [
     "amplify",
