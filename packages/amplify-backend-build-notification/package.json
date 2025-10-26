@@ -9,7 +9,7 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "@aws-amplify/plugin-types": "^0.10.0",
+    "@aws-amplify/plugin-types": "^1.0.0",
     "amplify-build-notification-construct": "^0.1.0"
   },
   "devDependencies": {
