@@ -15,14 +15,14 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "24.10.7",
-    "aws-cdk-lib": "2.235.1",
+    "aws-cdk-lib": "2.236.0",
     "constructs": "^10.0.0",
     "jest": "^30.0.0",
     "ts-jest": "^29.1.2",
     "typescript": "~5.9.0"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "2.235.1",
+    "aws-cdk-lib": "2.236.0",
     "constructs": "^10.0.0"
   },
   "author": "MURAKAMI Masahiko <fossamagna2@gmail.com>",
